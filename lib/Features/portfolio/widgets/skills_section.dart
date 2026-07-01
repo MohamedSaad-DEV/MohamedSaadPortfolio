@@ -2,7 +2,6 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../../../core/constants/portfolio_data.dart';
@@ -24,18 +23,18 @@ class _NoScrollbarScrollBehavior extends MaterialScrollBehavior {
 class SkillsSection extends StatelessWidget {
   const SkillsSection({super.key});
 
-  static const _techIcons = {
-    'Dart': FontAwesomeIcons.dartLang,
+  static const _techIcons = <String, IconData>{
+    'Dart': Icons.code,
     'Flutter': Icons.flutter_dash,
-    'Firebase': FontAwesomeIcons.fire,
+    'Firebase': Icons.local_fire_department_outlined,
     'Odoo': Icons.business_center_outlined,
     'Bloc': Icons.view_module_outlined,
-    'Git': FontAwesomeIcons.gitAlt,
+    'Git': Icons.account_tree_outlined,
     'REST': Icons.api_outlined,
     'CI/CD': Icons.sync_outlined,
-    'Android': FontAwesomeIcons.android,
-    'iOS': FontAwesomeIcons.apple,
-    'Python': FontAwesomeIcons.python,
+    'Android': Icons.android,
+    'iOS': Icons.phone_iphone,
+    'Python': Icons.terminal,
     'GetX': Icons.speed_outlined,
   };
 

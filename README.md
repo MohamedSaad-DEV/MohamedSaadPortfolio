@@ -1,16 +1,35 @@
-# mohamed_saad_portfolio
+# Mohamed Saad Portfolio
 
-A new Flutter project.
+Professional Flutter web portfolio for **Mohamed Saad** — Senior Flutter & Odoo Developer.
 
-## Getting Started
+## Live site
 
-This project is a starting point for a Flutter application.
+https://mohamedsaad-dev.github.io/MohamedSaadPortfolio/
 
-A few resources to get you started if this is your first Flutter project:
+## Local development
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+flutter run -d chrome
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Build web
+
+```bash
+flutter build web --release --base-href "/MohamedSaadPortfolio/"
+```
+
+## GitHub Pages setup (one-time)
+
+After the first successful GitHub Action run:
+
+1. Open [Repository Settings → Pages](https://github.com/MohamedSaad-DEV/MohamedSaadPortfolio/settings/pages)
+2. Set **Source** to **Deploy from a branch**
+3. Choose branch **`gh-pages`** and folder **`/ (root)`**
+4. Save
+
+Every push to `main` rebuilds and redeploys automatically.
+
+## Repository
+
+https://github.com/MohamedSaad-DEV/MohamedSaadPortfolio
