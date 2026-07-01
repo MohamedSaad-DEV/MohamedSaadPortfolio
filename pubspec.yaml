@@ -1,0 +1,32 @@
+name: mohamed_saad_portfolio
+description: "Professional portfolio website for Mohamed Saad - Senior Flutter Developer."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_bloc: ^9.1.0
+  go_router: ^14.8.1
+  google_fonts: ^6.2.1
+  animated_text_kit: ^4.2.3
+  url_launcher: ^6.3.1
+  cached_network_image: ^3.4.1
+  flutter_animate: ^4.5.2
+  font_awesome_flutter: ^10.8.0
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
